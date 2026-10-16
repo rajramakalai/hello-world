@@ -1,54 +1,52 @@
-# 🌐 NVIDIA — Living Knowledge Dossier (OKF)
+# 🌐 NewsMemoryOKF & Living Knowledge Portal
 
-[![GitHub Pages Live](https://img.shields.io/badge/GitHub%20Pages-Live%20Web%20Page-brightgreen?style=for-the-badge&logo=github)](https://rajramakalai.github.io/hello-world/)
-[![Entity](https://img.shields.io/badge/Entity-NVIDIA-76b900?style=for-the-badge&logo=nvidia)](https://rajramakalai.github.io/hello-world/)
-[![Source](https://img.shields.io/badge/Origin-Raj%20AI%20Cloud%20NewsMemory-blue?style=for-the-badge)](https://raj-ai.duckdns.org/news/)
+[![GitHub Pages Live](https://img.shields.io/badge/GitHub%20Pages-Live%20Portal-brightgreen?style=for-the-badge&logo=github)](https://rajramakalai.github.io/hello-world/)
+[![Entity Dossier](https://img.shields.io/badge/Entity-NVIDIA-76b900?style=for-the-badge&logo=nvidia)](https://rajramakalai.github.io/hello-world/)
+[![Specification](https://img.shields.io/badge/Standard-Living%20OKF%20v1.0-blue?style=for-the-badge)](./LIVING_OKF_SPECIFICATION.md)
+[![Origin](https://img.shields.io/badge/Cloud-Raj%20AI%20Cloud-purple?style=for-the-badge)](https://raj-ai.duckdns.org/news/)
 
-> **Live Interactive Web Page**: Visit **[https://rajramakalai.github.io/hello-world/](https://rajramakalai.github.io/hello-world/)** to view the full interactive, dark-mode dashboard with knowledge graph connections, audit changelog, and metadata panel!
+Welcome to the public gateway for **NewsMemoryOKF**, the 24/7 autonomous living intelligence memory desk running on Raj AI Cloud (Oracle Cloud ARM VM).
 
----
-
-## ⚡ Current Essence (Executive Summary)
-**NVIDIA Corporation** is the foundational architectural pillar of the modern artificial intelligence era, high-performance computing (HPC), and accelerated graphics. Pioneering parallel computing architectures through GPUs and the pervasive **CUDA** software stack, NVIDIA powers the vast majority of global frontier AI training clusters and real-time enterprise inference deployments across OpenAI, Google, Microsoft, Meta, and sovereign supercomputing facilities.
+> 🚀 **Live Interactive Web Portal:** [**https://rajramakalai.github.io/hello-world/**](https://rajramakalai.github.io/hello-world/)
 
 ---
 
-## 🔑 Core Capabilities & Milestones
-- **Accelerated AI Compute Engines:** Dominates frontier model training and inference with the **Blackwell** (B200, GB200 NVL72) and **Hopper** (H100, H200) GPU architectures, coupled with Grace CPU superchips.
-- **CUDA Software Moat:** Decades of continuous optimization across cuDNN, TensorRT-LLM, Megatron-LM, and Triton Inference Server, forming an unprecedented barrier to entry for competing accelerators.
-- **Interconnect & Networking Fabric:** Ultra-high-bandwidth **NVLink 5** (1.8 TB/s bidirectional chip-to-chip) and Quantum-X800 InfiniBand networking, effectively overcoming distributed training memory and bandwidth bottlenecks.
-- **Physical AI & Robotics:** Pioneering physical intelligence through the NVIDIA Omniverse simulation platform, Isaac robotics platform, and DRIVE Thor autonomous vehicle compute systems.
-- **Inference Microservices (NIM):** Turnkey enterprise deployment containers offering optimized inference kernels, FP4/FP8 quantization, and guaranteed latency SLAs across hybrid cloud infrastructures.
+## 📌 Portal Features
+
+This repository powers a multi-tab GitHub Pages portal:
+
+1. **📰 Live Cloud News Feed (`<iframe>` Portal):**
+   - Direct embedded window into [`https://raj-ai.duckdns.org/news/`](https://raj-ai.duckdns.org/news/).
+   - Governed by **CloudAuth IAM**: administrators can toggle public access or require Google OAuth Single Sign-On (SSO).
+   - Features 1-click external launch and frame reload controls.
+
+2. **⚡ NVIDIA Living OKF Wiki (Sample Page):**
+   - Standalone, 100% self-contained production HTML page representing the canonical Object Knowledge Format (OKF) living dossier for **NVIDIA Corporation** ([`https://raj-ai.duckdns.org/news/wiki/nvidia`](https://raj-ai.duckdns.org/news/wiki/nvidia)).
+   - Fully interactive offline with Bootstrap 5 dark theme, knowledge graph connections, audit changelog table, and metadata cards.
+
+3. **🧠 Living OKF Specification (For Peer Agents):**
+   - Comprehensive technical design specification in [`LIVING_OKF_SPECIFICATION.md`](./LIVING_OKF_SPECIFICATION.md) for any autonomous AI agent to implement the Dual-Layer Living Memory pattern.
 
 ---
 
-## 📅 Dated Intelligence & News Timeline
-- **2026-08-24:** Comprehensive AI chip architecture benchmarking identifies GPU interconnect bandwidth and NVLink mesh scalability as the defining efficiency differentiator against specialized ASIC alternatives (Google TPU v6, AWS Trainium 2, Cerebras WSE-3, and Groq LPU).
-- **2026-08-19:** Frontier AI labs and sovereign data centers restructure cluster expansion schedules around gigawatt-scale power availability and Blackwell NVL72 rack-scale delivery timelines.
-- **2026-08-18:** Developer tooling, local execution runtimes, and agentic workflows increasingly integrate TensorRT-LLM and ONNX Runtime optimizations for localized sub-10ms latency.
-- **2026-08-17:** Embodied AI and spatial gesture models expand into domestic and industrial robotics using NVIDIA edge compute modules.
+## 📄 Living OKF Specification for AI Agents
+
+For developers and autonomous AI agents looking to reference and implement the Living Memory Architecture:
+👉 **[Read the Full Living OKF Specification (v1.0.0)](./LIVING_OKF_SPECIFICATION.md)**
+
+### Architecture Highlights:
+- **Dual-Layer Memory:** Layer 1 Episodic Memory (transient 90-day TTL in SQLite + FTS5) $	o$ Layer 2 Semantic Living Memory (permanent `.okf.md` files).
+- **Sleep-Cycle Consolidation:** Autonomous agents reconcile new events every 6 hours, resolve contradictions, and rewrite the ~200-word executive essence.
+- **Bi-Directional WikiLinks:** Interconnects entities and topics using `[[Target]]` syntax.
+- **Audit Provenance:** Every update increments semantic versioning and appends an immutable changelog row with the authoring agent's ID.
 
 ---
 
-## 🌐 Ecosystem & Graph Context
-- **Frontier AI Model Developers:** `[[OpenAI]]`, `[[Google]]`, `[[Meta]]`, `[[Anthropic]]`
-- **Hyperscale Cloud Infrastructure:** `[[Microsoft Azure]]`, `[[Amazon AWS]]`, `[[Google Cloud]]`, `[[Oracle Cloud]]`
-- **Semiconductor Supply Chain:** `[[TSMC]]` (CoWoS packaging), `[[SK Hynix]]` / `[[Micron]]` (HBM3e memory)
-- **Open-Source AI Tooling:** `[[PyTorch]]`, `[[vLLM]]`, `[[Hugging Face]]`
+## 📂 Repository File Index
 
----
-
-## 📜 Living Change Log & Event Provenance
-
-| Date (UTC) | Version | Action / Diff Summary | Trigger Event / Source | Agent ID |
-| :--- | :--- | :--- | :--- | :--- |
-| **2026-10-16** | `v1.2` | Standalone HTML & GitHub Pages deployment export | User deployment request | `agent:antigravity` |
-| **2026-08-24** | `v1.1` | Integrated AI Chip Architecture benchmark findings & memory movement insights | explainx.ai Blog scraper | `agent:consolidator` |
-| **2026-08-18** | `v1.0` | Document bootstrapped with living multi-source news memory ingestion | System initialization | `agent:bootstrap` |
-
----
-
-### 📂 Repository File Index
-- [`index.html`](./index.html) — Standalone production HTML with Bootstrap 5, dark theme, and complete custom CSS.
-- [`nvidia.okf.md`](./nvidia.okf.md) — Raw canonical Object Knowledge Format (OKF) file with YAML frontmatter.
-- [`README.md`](./README.md) — Native GitHub Markdown rendering of the NVIDIA living dossier.
+| File | Purpose |
+| :--- | :--- |
+| [`index.html`](./index.html) | Interactive GitHub Pages portal with iframe cloud embed, NVIDIA sample, and spec reader. |
+| [`LIVING_OKF_SPECIFICATION.md`](./LIVING_OKF_SPECIFICATION.md) | Full architectural standard & Python reference implementation for AI agents. |
+| [`nvidia.okf.md`](./nvidia.okf.md) | Canonical raw Object Knowledge Format (OKF) markdown dossier with YAML frontmatter. |
+| [`README.md`](./README.md) | Repository overview and documentation hub. |
